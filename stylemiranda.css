@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: canopee;
+}
+
+html body{
+    min-height: 100%;
+    min-width: 100%;
+
+}  
+
+#main{
+    background-color: rgb(66, 45, 16);
+    overflow: hidden;
+    position: relative;
+}
+
+#page1{
+    height: 110vh;
+    min-width: 100vw;
+    background-color: rgb(196, 189, 179);
+    position: relative;
+    overflow:hidden ;
+}
+
+#nav{
+    height: 100px;
+    background-color: rgb(198, 189, 179 );
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#nav h5{
+    font-size: 15px;
+    
+}
+#nav i{
+    font-size: 20px;
+    text-align: right;
+}
+
+#elems{
+    height: 430px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 40px
+}
+
+#elems1{
+    width: 30%;
+    height: 100%;
+    
+}
+
+#elems2{
+    width: 30%;
+    height: 100%;
+    border-left: 1px solid black;
+    border-right: 1px solid black; 
+    padding: 20px 30px;
+    text-align: center;
+}
+
+#elems3{
+    width: 30%;
+    height: 100%;
+    
+}
+#image-div:hover img{
+    scale: 1.1;
+}
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.7s;
+    border: 1px solid black;
+}
+#elems1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#elems2 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#elems3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#elems1 h4{
+    margin-top: 10px;
+    margin-bottom: 1px;
+    font-family: 'canopee';
+    font-size: 20px;
+    padding: 4px;
+}
+
+#elems h4 span{
+    font-family: futura;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+    
+}
+
+#elems2 h2{
+    font-family: zepfine;
+    font-size: 65px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 5px;
+    
+}
+
+#elems2 h3{
+    font-size: 25px;
+    padding-top: 25px;
+    color: rgb(139, 117, 117);
+
+}
+
+#elems2 h6{
+    font-size: 15px;
+    padding-top: 125px;
+    color: rgb(52, 48, 48);
+}
+
+#elems1 p{
+    color: rgb(78, 74, 74);
+    
+}
+
+#page1 h1{
+    font-size: 265px;
+    text-align: center;
+    background-color: black;
+    color: rgb(196, 189, 179);
+    line-height: 230px;
+    letter-spacing: -5px;
+    /* transform: scale(0.8,2); */
+    
+}
+
+
+#page2{
+    min-height: 150vh;
+    width: 100%;
+    background-color: rgb(196, 189, 179);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#page2-left{
+    height: 100%;
+    width: 30%;
+    /* background-color: red; */
+    border-right: black;
+}
+#page2-left h2{
+    font-size: 110px;
+    /* letter-spacing: -10px; */
+    text-align: left;
+    transform: scale(.5,1);
+}
+#page2-left:hover img{
+    scale: 1.1;
+}
+#page2-left img{
+    height: 425px;
+    align-items: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    border: 6px black;
+    overflow: hidden;
+    
+}
+
+#page2-right{
+    height: 100%;
+    width: 69%;
+    /* background-color: blue; */
+}
+
+#page2-right img{
+    height: 500px;
+    align-items: center;
+    padding-left: 110px;
+    /* border: 1px solid black; */
+
+}
+#page2-left p{
+    text-align: center;
+    font-size: 45px;
+    transform: scale(.8, 1);
+}
+#page2-right h4{
+    text-align: center;
+    font-size: 79px;
+    transform: scale(0.8,1.1);
+    letter-spacing: -7px;
+    padding-top: 10px;
+    padding-right: 30px;
+
+}
+#page2-left p span{
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#page2-right h4 span{
+    font-size: 110px;
+    /* background-color: orange; */
+    color: white;
+    /* counter-reset: unset; */
+    text-align: center;
+    border-radius: 10px;
+}
+#nav{
+    /* position: fixed; */
+}
+
+/* =================================================================*/
+
+h1{
+    font-size: 250px;
+    background-color: #0d0101;
+    color: white;
+    text-align: 1px;
+    letter-spacing: -10px;
+    transform: scale(.8,1);
+    
+
+}
